@@ -1,0 +1,35 @@
+/* navigation */
+.nav {position: fixed; width:100%; height:80px; overflow: hidden; transition: 0.25s ease-in-out; background-color: white; border-bottom: 1px solid;}
+.nav:hover {height: 250px; cursor: pointer;}
+.nav .menu-list{display: flex; justify-content: center;}
+.nav .menu-list p{padding-left: 50px;}
+.nav .menu-list .site{display: flex; padding-left: 50px;}
+.nav .detailMenu {display: flex; overflow: hidden; display: flex; justify-content: flex-end;}
+.nav .detailMenu ul {margin-right: 120px;}
+
+/* common */
+.container{display: flex; padding-top: 80px;}
+.sidebar{flex:1; background-color:rgb(193, 210, 215); height: 835px; padding-left: 15px; overflow:scroll; overflow-x: hidden;}
+.contWrap{flex:4; background-color: white; padding-left: 30px;} 
+.divLine{position: relative;  width: calc(96%); height:1px; border-bottom: 1px solid #e5e7eb; margin-top: 15px;}
+.contWrap .metaData{font-size: 15px;}
+.side_title{width: 95%; height: 22px;}
+
+/* main */
+.contents {width: 100%; height: 1000px; background-color: white; padding-top: 100px;}
+
+
+/* subway */
+.subList{ overflow:scroll; height:67px; overflow-x: hidden; background-color: white; width: 95%; margin-top: 10px; }
+.search{width: 95%; margin-top: 20px;  padding: 8px;}
+.title_Checkbox{display: flex;}
+.title_Checkbox .allCheckbox{padding-top: 25px; padding-left: 60px; font-size: 15px;}
+.predictionList{ border: 1px solid white; width: 95%; margin-top: 10px;}
+
+/* RightSubway */
+.chart{ width: 93%; height: 270px; }
+.chartButton{ width: 90%; padding-left: 30px; }
+.button{margin-left: 10px;}
+.table{overflow:scroll; height:216px; overflow-x: hidden; background-color: white; width: 92%;}
+.table .table_data{border: 1px solid #444444; width: 100%;}
+.table .table_data .tr,th,td{ border: 1px solid #444444;}
